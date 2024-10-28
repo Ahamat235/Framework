@@ -6,7 +6,7 @@ services:
     args:
       USERNAME: 
       USERID: 
-  container_name: fw1-cc-${USERNAME}
+  container_name: fw1-test-${USERNAME}
   command: /bin/bash
   tty: true
   stdin_open: true
