@@ -7,3 +7,7 @@ def about(request):
 def collection_detail(request, id):
     collection = get_object_or_404(Collec, id=id)
     return render(request, 'collec_management/collection_detail.html', {'collection': collection})
+
+def all(request):
+    collections=Collec.objects.all()
+    return render(request, "collec_management/colleclist.html", {"collections":collections})
