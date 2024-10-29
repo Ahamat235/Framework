@@ -12,3 +12,6 @@ def collection_detail(request, id):
         raise Http404("La collection n'existe pas")
     return render(request, 'collec_management/collection_detail.html', {'collection': collection})
 
+def all(request):
+    collections=Collec.objects.all()
+    return render(request, "collec_management/colleclist.html", {"collections":collections})

@@ -20,6 +20,5 @@ from . import views
 urlpatterns = [
     path('about/', views.about, name='about'),
     path('collection_detail/<int:id>/', views.collection_detail, name='collection_detail'), 
-    
-
+    path('all/', views.all, name='all'), 
 ]
