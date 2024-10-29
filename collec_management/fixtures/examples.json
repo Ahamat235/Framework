@@ -1,0 +1,128 @@
+[
+{
+    "model": "collec_management.collec",
+    "pk": 1,
+    "fields": {
+        "title": "Application !",
+        "description": "projet framework test",
+        "date": "2024-10-28T15:13:04.310Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 2,
+    "fields": {
+        "title": "Appli",
+        "description": "projet f2ramework test",
+        "date": "2024-10-28T15:16:59.145Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 3,
+    "fields": {
+        "title": "Collection de livres",
+        "description": "Une collection de romans classiques et contemporains.",
+        "date": "2024-10-28T15:46:04.680Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 4,
+    "fields": {
+        "title": "Collection de timbres",
+        "description": "Des timbres rares de différents pays et époques.",
+        "date": "2024-10-28T15:46:05.003Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 5,
+    "fields": {
+        "title": "Collection de monnaies",
+        "description": "Des pièces de monnaie de divers pays et périodes historiques.",
+        "date": "2024-10-28T15:46:05.064Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 6,
+    "fields": {
+        "title": "Collection d'art contemporain",
+        "description": "Des œuvres d'artistes contemporains célèbres.",
+        "date": "2024-10-28T15:46:05.145Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 7,
+    "fields": {
+        "title": "Collection de cartes postales",
+        "description": "Des cartes postales vintage de différents endroits du monde.",
+        "date": "2024-10-28T15:46:05.212Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 8,
+    "fields": {
+        "title": "Collection de bandes dessinées",
+        "description": "Des BD de divers auteurs et genres.",
+        "date": "2024-10-28T15:46:05.297Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 9,
+    "fields": {
+        "title": "Collection de photographies anciennes",
+        "description": "Des photographies du XIXe siècle et du début du XXe siècle.",
+        "date": "2024-10-28T15:46:05.397Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 10,
+    "fields": {
+        "title": "Collection de vinyles",
+        "description": "Des vinyles rares de musique classique et rock.",
+        "date": "2024-10-28T15:46:05.556Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 11,
+    "fields": {
+        "title": "Collection de figurines",
+        "description": "Des figurines de collection de films et séries populaires.",
+        "date": "2024-10-28T15:46:05.698Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 12,
+    "fields": {
+        "title": "Collection de pierres précieuses",
+        "description": "Des pierres précieuses et semi-précieuses de différents endroits.",
+        "date": "2024-10-28T15:46:05.923Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 13,
+    "fields": {
+        "title": "Collection de jeux vidéo rétro",
+        "description": "Des jeux vidéo des années 80 et 90.",
+        "date": "2024-10-28T15:46:06.059Z"
+    }
+},
+{
+    "model": "collec_management.collec",
+    "pk": 14,
+    "fields": {
+        "title": "Collection de maquettes",
+        "description": "Des maquettes d'avions, de voitures et de bateaux.",
+        "date": "2024-10-28T15:46:34.448Z"
+    }
+}
+]
