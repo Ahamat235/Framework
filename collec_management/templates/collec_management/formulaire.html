@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Ajouter une nouvelle collection</h1>
+    <form action="{% url 'new' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Nouvelle Collecttion">
+    </form>
+    
+</body>
+</html>
