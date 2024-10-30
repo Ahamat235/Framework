@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect , get_object_or_404
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.urls import reverse
 from collec_management.forms import CollecForm
@@ -28,4 +28,13 @@ def new (request) :
     else :
         form=CollecForm()
     return render(request , 'collec_management/formulaire.html' , {"form" : form})
-    
+
+
+def delete ( request , collec_id ) :
+    collec = get_object_or_404 ( Collec , pk = collec_id )
+    if request.method == "POST" :
+        collec.delete()
+        return redirect ("all")
+        
+    return render (request, "collec_management/collec_delete.html" ,
+                   {"collec":collec})

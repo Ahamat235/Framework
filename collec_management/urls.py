@@ -22,5 +22,5 @@ urlpatterns = [
     path('collection_detail/<int:id>/', views.collection_detail, name='collection_detail'), 
     path('all/', views.all, name='all'), 
     path('new/', views.new, name='new'), 
-
+    path('delete/<int:collec_id>', views.delete, name='delete'),
 ]

@@ -13,6 +13,7 @@
                 <th>Titre</th>
                 <th>Date</th>
                 <th>Description</th>
+                <th>Supprimer</th>
             </tr>
         </thead>
         <tbody>
@@ -21,6 +22,7 @@
                 <td>{{ collection.title }}</td>
                 <td>{{ collection.date }}</td>
                 <td><a href="{% url 'collection_detail' collection.id %}">Voir la fiche</a></td>
+                <td><a href="{% url 'delete' collection.id %}">Supprimer</a></td>
             </tr>
             {% endfor %}
         </tbody>
