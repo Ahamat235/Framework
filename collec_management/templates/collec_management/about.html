@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À propos de l'application</title>
-</head>
-<body>
-    <h1>Bienvenue dans notre app</h1>
-</body>
-</html>
+{% extends "collec_management/menu.html" %}
+{% load django_bootstrap5 %}
+    {% block title %}A propos de notre application{% endblock %}
+{% block content %}
+<p> Bienvenue dans notre application de gestion de collections</p>
+{% endblock %}

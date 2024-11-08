@@ -19,9 +19,11 @@ from . import views
 
 urlpatterns = [
     path('about/', views.about, name='about'),
-    path('collection/<int:id>/', views.collection, name='collection'), 
-    path('all/', views.all, name='all'), 
-    path('new/', views.new, name='new'), 
-    path('delete/<int:collec_id>', views.delete, name='delete'),
-    path('change/<int:collec_id>', views.change, name='change'),
+    path('', views.menu, name='menu'),
+    path('collection/<int:id>/' , views.collection_detail , name='collection_detail') ,
+    path ('new/' , views.new , name='new'),
+    path('all/', views.all, name='all'),
+    path('delete/<int:collec_id>/' , views.delete , name='delete'),
+    path('change/<int:collec_id>/' , views.change , name='change'),
+
 ]

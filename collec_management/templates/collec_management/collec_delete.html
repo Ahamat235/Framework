@@ -1,21 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1> Voulez - vous vraiment effacer le message " {{collec.title}} " ? </h1 >
-    <ul>
-        <li> <b> Date : </b > {{collec.date}} </li >
-            <li> <b > Description : </b> {{collec.description}} </li >
-                </ul >
-                <form method = "post" >
-                {% csrf_token %}
-                <button type = "submit" name = "delete" > Effacer </button >
-                </form>
-                <p> <a href ="{% url 'all' %}"> Retour au menu</a > </p >
-    
-</body>
-</html>
+{% extends 'collec_management/menu.html' %}
+{% load django_bootstrap5 %}
+{% block title%} voulez -vous vraiment supprimer cette collection : {{ collec.title }}{% endblock %}
+{% block content%}
+    <p>Description :{{collec.description}}</p>
+    <p>date :{{collec.date}}</p>
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_button button_type="submit" content="Supprimer" %}
+    </form>
+{% endblock %}
